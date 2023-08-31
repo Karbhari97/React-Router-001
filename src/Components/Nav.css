@@ -1,0 +1,76 @@
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+.dropdown-menu > li > a:hover {
+  background-color: aliceblue;
+}
+
+#enquire {
+  color: aliceblue;
+  font-weight: 600;
+}
+.btn.btn-primary {
+  border-radius: 30px;
+  padding: 5px;
+  width: 150px;
+  margin-left: 140px;
+}
+#nav-container{
+    width: 100%;
+    position:fixed;
+    
+    
+}
+.navbar{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.nav-item> a {
+ margin-left: 40px;
+  }
+
+  .navbar-collapse{
+    margin-left: 90px;
+  }
+  #icons{
+    display: flex;
+    justify-content: end;
+    color:#596AFF;
+    font-size: large;
+  }
+
+  #HomeContainer{
+    position: relative;
+    margin:3px auto ;
+    width: 80%;
+    display: flex;
+    top: 160px;
+  }
+
+  #content{
+    width: 50%;
+   
+  }
+
+  #image{
+    width: 60%;
+    
+
+  }
+  #image img{
+    width: 110%;
+    height: 450px;
+  }
+  #content h1{
+    color:#596AFF;
+    font-weight: bolder;
+    line-height: 60px;
+  }
+
+  #content h5{
+    line-height: 40px;
+  }
+
+
+ 
